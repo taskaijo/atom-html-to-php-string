@@ -2,27 +2,27 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Convert html-to-string'
-      'command': 'htmlToString:convert'
+      'label': 'Convert html-to-php-string'
+      'command': 'htmlToPHPString:convert'
     }
     {
-      'label': 'Deconvert html-to-string'
-      'command': 'htmlToString:deconvert'
+      'label': 'Deconvert html-to-php-string'
+      'command': 'htmlToPHPString:deconvert'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'html-to-string'
+      'label': 'html-to-php-string'
       'submenu': [
         {
           'label': 'Convert'
-          'command': 'htmlToString:convert'
+          'command': 'htmlToPHPString:convert'
         }
         {
           'label': 'Deconvert'
-          'command': 'htmlToString:deconvert'
+          'command': 'htmlToPHPString:deconvert'
         }
       ]
     ]
